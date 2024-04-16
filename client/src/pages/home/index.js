@@ -5,7 +5,7 @@ import UserSearch from "./components/UserSearch";
 import UsersList from "./components/UsersList";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://we-chat-93m7.onrender.com");
 // const socket = io('https://sheychat-udemy.onrender.com');
 function Home() {
   const [searchKey, setSearchKey] = React.useState("");
